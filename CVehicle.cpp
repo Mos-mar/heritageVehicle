@@ -13,5 +13,5 @@ CVehicle::~CVehicle()
 
 void CVehicle::afficher()
 {
-    cout << "je suis un vehicle << endl" << endl;
+    cout << "je suis un vehicle" << endl;
 }
