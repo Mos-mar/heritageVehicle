@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    CVehicle v1;
+    /*CVehicle v1;
     CVoiture v2;
     CMoto v3;
     CVehicle tabV[3];
@@ -15,7 +15,7 @@ int main()
     tabV[2] = v3;
 
     for (auto i = 0; i < 3; i++)
-        tabV[i].afficher();
+        tabV[i].afficher();*/
 
     CVehicle *pv1 = new CVehicle();
     CVoiture *pv2 = new CVoiture();
@@ -31,6 +31,7 @@ int main()
 
     for (auto i = 0; i < 3; i++)
         delete tabptrV[i];
+
 
     return 0;
 };

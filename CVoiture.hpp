@@ -7,7 +7,6 @@
 class CVoiture : public CVehicle
 {
 private:
-    /* data */
 public:
     CVoiture(/* args */);
     ~CVoiture();

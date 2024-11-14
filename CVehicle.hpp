@@ -6,10 +6,8 @@ class CVehicle
 private:
 public:
     CVehicle();
-    ~CVehicle();
-   virtual void afficher();
+    virtual ~CVehicle();
+    virtual void afficher();
 };
-
-
 
 #endif // vehicle_HPP
